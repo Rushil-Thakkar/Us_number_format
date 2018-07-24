@@ -1,10 +1,10 @@
-﻿#WRITE A FUNCTION THAT ACCEPTS A USER INPUT PHONE NUMBER AS A STRING AND RETURNS 
+﻿# WRITE A FUNCTION THAT ACCEPTS A USER INPUT PHONE NUMBER AS A STRING AND RETURNS 
 A NORMALIZED UNITED STATES PHONE NUMBER IN E.164 FORMAT. RETURN NULL (OR AN EQUIVALENT VALUE)
 IF THE USER INPUT IS INVALID.
 
 ------------------------------------------------------------------------------------------------
 
-###GENERAL DOCUMENTATION:
+### GENERAL DOCUMENTATION:
 
 - I have used Java language for this program and developed it in eclipse IDE.
 - No third party libraries are used for the solution.
@@ -22,40 +22,39 @@ IF THE USER INPUT IS INVALID.
 
 -----------------------------------------------------------------------------------------------------------------------
 
-###SAMPLE INPUT AND OUTPUT:
+### SAMPLE INPUT AND OUTPUT:
 
-- Run the number_format.java file in order to test it.
+> Run the number_format.java file in order to test it.
 
 ```sh
 Input: 		Please enter 10 digit number : 3617593514
 Output: 	+1(361)759-3514
-
-
+```
+```sh
 Input: 		Please enter 10 digit number : 1234567890
 Output: 	+1(123)456-7890
-
-
+```
+```sh
 Input: 		Please enter 10 digit number : 12345
 Output: 	null
-
-
+```
+```sh
 Input: 		Please enter 10 digit number :
 Output: 	null
-
-
+```
+```sh
 Input: 		Please enter 10 digit number : 12345abcde
 Output: 	null
-
-
+```
+```sh
 Input:	 	Please enter 10 digit number : abcde12345
 Output: 	null
-
-
+```
+```sh
 Input: 		Please enter 10 digit number : abcdefg
 Output: 	null
-
-
+```
+```sh
 Input: 		Please enter 10 digit number : !@#$%12345
 Output: 	null
-
 ```
