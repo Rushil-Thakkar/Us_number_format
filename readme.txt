@@ -1,20 +1,26 @@
-﻿WRITE A FUNCTION THAT ACCEPTS A USER INPUT PHONE NUMBER AS A STRING AND RETURNS A NORMALIZED UNITED STATES PHONE NUMBER IN E.164 FORMAT. RETURN NULL (OR AN EQUIVALENT VALUE) IF THE USER INPUT IS INVALID.
+﻿WRITE A FUNCTION THAT ACCEPTS A USER INPUT PHONE NUMBER AS A STRING AND RETURNS 
+A NORMALIZED UNITED STATES PHONE NUMBER IN E.164 FORMAT. RETURN NULL (OR AN EQUIVALENT VALUE)
+ IF THE USER INPUT IS INVALID.
 
-------------------------------------------------------------  SOLUTION  -------------------------------------------------------------------
+------------------------------------  SOLUTION  ---------------------------------------------
 
 GENERAL DOCUMENTATION:
 
 - I have used Java language for this program and developed it in eclipse IDE.
 - No third party libraries are used for the solution.
-- There are no assumption for providing the input. Users can input anything they want. Program will print the result according the input. If 	the input is valid and has all 10 digit numbers, then it will print the United states phone number in E.164 format. 
+- There are no assumption for providing the input.Users can input anything they want. 
+- Program will print the result according the input. If the input is valid and has all 10 digit 
+  numbers, then it will print the United states phone number in E.164 format. 
 
 - If the input is invalid, then it will return null. 
 - Java.util.* package is used in the program.
-- Program has main class NUMBER_FORMAT which has function MAIN that is responsible to take the input from users. It then make a function call to function FORMAT by passing the user input to it.
+- Program has main class NUMBER_FORMAT which has function MAIN that is responsible to take the input 
+  from users. It then make a function call to function FORMAT by passing the user input to it.
 
-- The class NUMBER_FORMAT also has the function FORMAT which (accepts the string and returns string) is responsible to convert the input (provided by function main) into US number E.164 format (if the input is valid).
+- The class NUMBER_FORMAT also has the function FORMAT which (accepts the string and returns string) 
+  is responsible to convert the input (provided by function main) into US number E.164 format (if the input is valid).
 
-------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 SAMPLE INPUT AND OUTPUT:
 
